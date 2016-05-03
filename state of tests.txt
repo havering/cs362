@@ -1,0 +1,20 @@
+unittest1 works
+unittest2 works
+
+unittest4 works
+bug1.c
+cardtest1.c works
+
+cardtest3.c works
+cardtest4c.works
+
+not working:
+
+unittest3 - just need to fix garden card
+cardtest2 - incomplete
+
+TO ENHANCE:
+
+unittest4 - don't just test return values, test state of game after isGameOver
+cardtest4 - figure out how to accurately test card being discarded, even if same card is drawn after discard
+all - consider refactoring so that position corresponds to a reference to the hand rather than a hard-coded integer
